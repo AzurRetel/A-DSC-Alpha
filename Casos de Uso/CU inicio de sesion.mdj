@@ -5355,7 +5355,7 @@
 							},
 							"font": "Arial;20;0",
 							"containerChangeable": true,
-							"left": 576,
+							"left": 568,
 							"top": 1312,
 							"width": 26,
 							"height": 26
@@ -5381,8 +5381,8 @@
 									},
 									"visible": false,
 									"font": "Arial;20;0",
-									"left": 602,
-									"top": 1272,
+									"left": 597,
+									"top": 1274,
 									"height": 20,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -5402,8 +5402,8 @@
 									},
 									"visible": null,
 									"font": "Arial;20;0",
-									"left": 617,
-									"top": 1272,
+									"left": 612,
+									"top": 1275,
 									"height": 20,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -5423,8 +5423,8 @@
 									},
 									"visible": false,
 									"font": "Arial;20;0",
-									"left": 573,
-									"top": 1273,
+									"left": 568,
+									"top": 1271,
 									"height": 20,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5442,7 +5442,7 @@
 								"$ref": "AAAAAAF9bjype8CgQhI="
 							},
 							"lineStyle": 1,
-							"points": "588:1256;588:1311",
+							"points": "585:1256;581:1311",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9bj1ce8DU0fw="
@@ -7273,7 +7273,7 @@
 											"top": 1175,
 											"width": 175,
 											"height": 60,
-											"text": "Muestra la pantalla del perfil del actor",
+											"text": "Muestra la pantalla de inicio de la página",
 											"wordWrap": true
 										},
 										{
@@ -8961,7 +8961,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9bi9Shr5lTVE="
 							},
-							"name": "Muestra la pantalla del perfil del actor"
+							"name": "Muestra la pantalla de inicio de la página"
 						},
 						{
 							"_type": "UMLAction",
