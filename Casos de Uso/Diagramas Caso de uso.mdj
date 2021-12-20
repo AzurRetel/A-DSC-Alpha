@@ -9228,7 +9228,7 @@
 											"left": 605,
 											"top": 615,
 											"width": 199,
-											"height": 36,
+											"height": 54,
 											"text": "6. Muestra que no se encontraron productos",
 											"wordWrap": true
 										},
@@ -9264,7 +9264,7 @@
 									"left": 600,
 									"top": 608,
 									"width": 209,
-									"height": 48,
+									"height": 66,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xvHgKNpTAfA="
 									},
@@ -9535,7 +9535,7 @@
 											"left": 621,
 											"top": 775,
 											"width": 175,
-											"height": 54,
+											"height": 72,
 											"text": "6.1 Recibe y muestra los productos recomentados",
 											"wordWrap": true
 										},
@@ -9571,7 +9571,7 @@
 									"left": 616,
 									"top": 768,
 									"width": 185,
-									"height": 66,
+									"height": 84,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xvHgKNpjRKU="
 									},
@@ -27909,7 +27909,7 @@
 											"top": 447,
 											"width": 127,
 											"height": 52,
-											"text": "6.-Muestra la plantilla de \"realizar comentario\" del producto",
+											"text": "5.2.-Muestra la plantilla de \"realizar comentario\" del producto",
 											"wordWrap": true
 										},
 										{
@@ -28227,7 +28227,7 @@
 											"top": 559,
 											"width": 175,
 											"height": 52,
-											"text": "7.-El actor responde lo que contiene la plantilla de comentarios y presiona \"enviar\".",
+											"text": "5.3.-El actor responde lo que contiene la plantilla de comentarios y presiona \"enviar\".",
 											"wordWrap": true
 										},
 										{
@@ -28427,7 +28427,7 @@
 											"top": 519,
 											"width": 150,
 											"height": 13,
-											"text": "8.-Almacena en la B.D"
+											"text": "5.4.-Almacena en la B.D"
 										},
 										{
 											"_type": "LabelView",
@@ -28528,7 +28528,7 @@
 											"top": 575,
 											"width": 111,
 											"height": 52,
-											"text": "9.-Muestra en plantilla de comentario exitoso.",
+											"text": "6.-Muestra en plantilla de comentario exitoso.",
 											"wordWrap": true
 										},
 										{
@@ -28775,100 +28775,6 @@
 							},
 							"propertyLabel": {
 								"$ref": "AAAAAAF9ydJszuRyn9w="
-							}
-						},
-						{
-							"_type": "UMLControlFlowView",
-							"_id": "AAAAAAF9ydJszuRzIw0=",
-							"_parent": {
-								"$ref": "AAAAAAF9ydJsy+QJf5A="
-							},
-							"model": {
-								"$ref": "AAAAAAF9ydJs0OTFDp8="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF9ydJszuR08DA=",
-									"_parent": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"model": {
-										"$ref": "AAAAAAF9ydJs0OTFDp8="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 255,
-									"top": 666,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF9ydJszuR1oXU=",
-									"_parent": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"model": {
-										"$ref": "AAAAAAF9ydJs0OTFDp8="
-									},
-									"visible": null,
-									"font": "Arial;13;0",
-									"left": 262,
-									"top": 679,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF9ydJszuR2kgo=",
-									"_parent": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"model": {
-										"$ref": "AAAAAAF9ydJs0OTFDp8="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 242,
-									"top": 639,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAF9ydJszuRzIw0="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAF91I6qimhb4dU="
-							},
-							"tail": {
-								"$ref": "AAAAAAF9ydJszeRl0Vg="
-							},
-							"lineStyle": 1,
-							"points": "287:639;211:679",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAF9ydJszuR08DA="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAF9ydJszuR1oXU="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAF9ydJszuR2kgo="
 							}
 						},
 						{
@@ -29382,104 +29288,6 @@
 						},
 						{
 							"_type": "UMLActionView",
-							"_id": "AAAAAAF91I6qimhb4dU=",
-							"_parent": {
-								"$ref": "AAAAAAF9ydJsy+QJf5A="
-							},
-							"model": {
-								"$ref": "AAAAAAF91I6qiGhZwI4="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAF91I6qimhcJ5I=",
-									"_parent": {
-										"$ref": "AAAAAAF91I6qimhb4dU="
-									},
-									"model": {
-										"$ref": "AAAAAAF91I6qiGhZwI4="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF91I6qimhd1Bg=",
-											"_parent": {
-												"$ref": "AAAAAAF91I6qimhcJ5I="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF91I6qimhelrM=",
-											"_parent": {
-												"$ref": "AAAAAAF91I6qimhcJ5I="
-											},
-											"font": "Arial;13;1",
-											"left": 85,
-											"top": 687,
-											"width": 151,
-											"height": 26,
-											"text": "10.-El actor presiona el botón de ok",
-											"wordWrap": true
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF91I6qimhfUBI=",
-											"_parent": {
-												"$ref": "AAAAAAF91I6qimhcJ5I="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"width": 207.30810546875,
-											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAF91I6qimhgEXg=",
-											"_parent": {
-												"$ref": "AAAAAAF91I6qimhcJ5I="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"horizontalAlignment": 1,
-											"wordWrap": true
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 80,
-									"top": 680,
-									"width": 161,
-									"height": 38,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF91I6qimhd1Bg="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAF91I6qimhelrM="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAF91I6qimhfUBI="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF91I6qimhgEXg="
-									}
-								}
-							],
-							"font": "Arial;13;0",
-							"containerChangeable": true,
-							"left": 80,
-							"top": 680,
-							"width": 161,
-							"height": 54,
-							"nameCompartment": {
-								"$ref": "AAAAAAF91I6qimhcJ5I="
-							},
-							"wordWrap": true
-						},
-						{
-							"_type": "UMLActionView",
 							"_id": "AAAAAAF9ydJszeRZYwo=",
 							"_parent": {
 								"$ref": "AAAAAAF9ydJsy+QJf5A="
@@ -29600,74 +29408,74 @@
 						},
 						{
 							"_type": "UMLControlFlowView",
-							"_id": "AAAAAAF91ZkzMqkkgjc=",
+							"_id": "AAAAAAF91bYXfamJ0B8=",
 							"_parent": {
 								"$ref": "AAAAAAF9ydJsy+QJf5A="
 							},
 							"model": {
-								"$ref": "AAAAAAF91ZkzMqkjxgw="
+								"$ref": "AAAAAAF91bYXfKmIaw8="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF91ZkzN6klZUE=",
+									"_id": "AAAAAAF91bYXfamKpJU=",
 									"_parent": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"model": {
-										"$ref": "AAAAAAF91ZkzMqkjxgw="
+										"$ref": "AAAAAAF91bYXfKmIaw8="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 288,
-									"top": 686,
+									"left": 362,
+									"top": 664,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF91ZkzN6kmL2E=",
+									"_id": "AAAAAAF91bYXfamLUfY=",
 									"_parent": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"model": {
-										"$ref": "AAAAAAF91ZkzMqkjxgw="
+										"$ref": "AAAAAAF91bYXfKmIaw8="
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 288,
-									"top": 671,
+									"left": 377,
+									"top": 664,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
 									"hostEdge": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"edgePosition": 1
 								},
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAF91ZkzN6kn6Gs=",
+									"_id": "AAAAAAF91bYXfamMhYA=",
 									"_parent": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"model": {
-										"$ref": "AAAAAAF91ZkzMqkjxgw="
+										"$ref": "AAAAAAF91bYXfKmIaw8="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 287,
-									"top": 715,
+									"left": 333,
+									"top": 665,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAF91ZkzMqkkgjc="
+										"$ref": "AAAAAAF91bYXfamJ0B8="
 									},
 									"edgePosition": 1
 								}
@@ -29677,19 +29485,19 @@
 								"$ref": "AAAAAAF9ydJszuR3xrQ="
 							},
 							"tail": {
-								"$ref": "AAAAAAF91I6qimhb4dU="
+								"$ref": "AAAAAAF9ydJszeRl0Vg="
 							},
 							"lineStyle": 1,
-							"points": "241:707;335:708",
+							"points": "348:648;348:695",
 							"showVisibility": true,
 							"nameLabel": {
-								"$ref": "AAAAAAF91ZkzN6klZUE="
+								"$ref": "AAAAAAF91bYXfamKpJU="
 							},
 							"stereotypeLabel": {
-								"$ref": "AAAAAAF91ZkzN6kmL2E="
+								"$ref": "AAAAAAF91bYXfamLUfY="
 							},
 							"propertyLabel": {
-								"$ref": "AAAAAAF91ZkzN6kn6Gs="
+								"$ref": "AAAAAAF91bYXfamMhYA="
 							}
 						}
 					]
@@ -29742,7 +29550,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9ydJsy+QIxaI="
 					},
-					"name": "6.-Muestra la plantilla de \"realizar comentario\" del producto"
+					"name": "5.2.-Muestra la plantilla de \"realizar comentario\" del producto"
 				},
 				{
 					"_type": "UMLAction",
@@ -29910,7 +29718,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9ydJsy+QIxaI="
 					},
-					"name": "8.-Almacena en la B.D"
+					"name": "5.4.-Almacena en la B.D"
 				},
 				{
 					"_type": "UMLAction",
@@ -29918,7 +29726,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9ydJsy+QIxaI="
 					},
-					"name": "9.-Muestra en plantilla de comentario exitoso."
+					"name": "6.-Muestra en plantilla de comentario exitoso."
 				},
 				{
 					"_type": "UMLAction",
@@ -30619,6 +30427,19 @@
 					"target": {
 						"$ref": "AAAAAAF9ydJs0OTQFTI="
 					}
+				},
+				{
+					"_type": "UMLControlFlow",
+					"_id": "AAAAAAF91bYXfKmIaw8=",
+					"_parent": {
+						"$ref": "AAAAAAF9ydJsy+QIxaI="
+					},
+					"source": {
+						"$ref": "AAAAAAF9ydJsz+SZio8="
+					},
+					"target": {
+						"$ref": "AAAAAAF9ydJs0OTQFTI="
+					}
 				}
 			],
 			"groups": [
@@ -30636,7 +30457,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9ydJs0OTHuEM="
 							},
-							"name": "7.-El actor responde lo que contiene la plantilla de comentarios y presiona \"enviar\"."
+							"name": "5.3.-El actor responde lo que contiene la plantilla de comentarios y presiona \"enviar\"."
 						},
 						{
 							"_type": "UMLAction",
