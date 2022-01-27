@@ -217,7 +217,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_NEWUSER – Registro",
+			"name": "PC_NUEVOUSUARIO – Registrar nuevo usuario",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -225,7 +225,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9u4rihz/arog="
 					},
-					"name": "Registrarse",
+					"name": "Registrar nuevo usuario",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -412,9 +412,9 @@
 											"font": "Arial;18;0",
 											"left": -240,
 											"top": -80,
-											"width": 267.046875,
+											"width": 445.1396484375,
 											"height": 18,
-											"text": "(from PC_NEWUSER – Registro)"
+											"text": "(from PC_NUEVOUSUARIO – Registrar nuevo usuario)"
 										},
 										{
 											"_type": "LabelView",
@@ -516,9 +516,9 @@
 											"font": "Arial;18;0",
 											"left": -160,
 											"top": -32,
-											"width": 267.046875,
+											"width": 445.1396484375,
 											"height": 18,
-											"text": "(from PC_NEWUSER – Registro)"
+											"text": "(from PC_NUEVOUSUARIO – Registrar nuevo usuario)"
 										},
 										{
 											"_type": "LabelView",
@@ -795,7 +795,7 @@
 											"left": 789,
 											"top": 791,
 											"width": 200.7578125,
-											"height": 36,
+											"height": 54,
 											"text": "7.Almacena los datos del nuevo usuario en la B.D.",
 											"wordWrap": true
 										},
@@ -831,7 +831,7 @@
 									"left": 784,
 									"top": 784,
 									"width": 210.7578125,
-									"height": 48,
+									"height": 66,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9u4riiUADlp8="
 									},
@@ -1353,7 +1353,7 @@
 							"left": 80,
 							"top": 288,
 							"width": 201,
-							"height": 64,
+							"height": 82,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9u4riiUAaAbA="
 							},
@@ -1380,7 +1380,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 519,
+									"left": 520,
 									"top": 328,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1401,7 +1401,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 519,
+									"left": 520,
 									"top": 343,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1422,7 +1422,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 520,
+									"left": 519,
 									"top": 299,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1441,7 +1441,7 @@
 								"$ref": "AAAAAAF9u4riiUAPZHE="
 							},
 							"lineStyle": 1,
-							"points": "528:274;520:320;281:319",
+							"points": "528:274;520:320;281:326",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9u4riikAmeYk="
@@ -1535,7 +1535,7 @@
 								"$ref": "AAAAAAF9u4riiUAZvmk="
 							},
 							"lineStyle": 1,
-							"points": "182:352;184:376;447:370",
+							"points": "184:370;184:376;447:370",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9u4riikAqyYk="
@@ -2839,7 +2839,7 @@
 											"left": 69,
 											"top": 447,
 											"width": 215,
-											"height": 90,
+											"height": 108,
 											"text": "6.El Actor ingresa su correo nombre de usuario contraseña y la confirma finalmente presiona el boton \"Registrarse\"",
 											"wordWrap": true
 										},
@@ -2875,7 +2875,7 @@
 									"left": 64,
 									"top": 440,
 									"width": 225,
-									"height": 102,
+									"height": 120,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9u4riikAh79Q="
 									},
@@ -4393,7 +4393,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_PRODES - Productos deseados",
+			"name": "PC_PRODES - Agregar productos deseados",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -4401,7 +4401,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9xZ2gGsmrA+4="
 					},
-					"name": "ActivityDiagram1",
+					"name": "Agregar productos deseados",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -4541,9 +4541,9 @@
 											"font": "Arial;13;0",
 											"left": -80,
 											"top": -64,
-											"width": 256.69921875,
+											"width": 296.9560546875,
 											"height": 13,
-											"text": "(from PC_PRODES - Productos deseados)"
+											"text": "(from PC_PRODES - Agregar productos deseados)"
 										},
 										{
 											"_type": "LabelView",
@@ -4879,7 +4879,7 @@
 											"top": 343,
 											"width": 143,
 											"height": 65,
-											"text": "4.1.-Iniciar Sesión. Observar diagrama de actividad de PC_LOGIN - Iniciar Sesión",
+											"text": "4.1.-Iniciar Sesión. Observar diagrama de actividad de PC_INICIARSESION - Iniciar Sesión",
 											"wordWrap": true
 										},
 										{
@@ -5950,9 +5950,9 @@
 											"font": "Arial;13;0",
 											"left": 16,
 											"top": 16,
-											"width": 248.5361328125,
+											"width": 296.9560546875,
 											"height": 13,
-											"text": "(from PC_PRODES - Productos deseados)"
+											"text": "(from PC_PRODES - Agregar productos deseados)"
 										},
 										{
 											"_type": "LabelView",
@@ -6054,9 +6054,9 @@
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 16,
-											"width": 248.5361328125,
+											"width": 296.9560546875,
 											"height": 13,
-											"text": "(from PC_PRODES - Productos deseados)"
+											"text": "(from PC_PRODES - Agregar productos deseados)"
 										},
 										{
 											"_type": "LabelView",
@@ -7658,7 +7658,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9xZ2gI8tDhu8="
 							},
-							"name": "4.1.-Iniciar Sesión. Observar diagrama de actividad de PC_LOGIN - Iniciar Sesión"
+							"name": "4.1.-Iniciar Sesión. Observar diagrama de actividad de PC_INICIARSESION - Iniciar Sesión"
 						},
 						{
 							"_type": "UMLActivityFinalNode",
@@ -7746,7 +7746,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9xvHgJdoI/HA="
 					},
-					"name": "PC_BUSPRO - Buscar un producto",
+					"name": " Buscar un producto",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -10832,7 +10832,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_LOGOUT - Cerrar sesión",
+			"name": "PC_CERRARSESION - Cerrar sesión",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -10840,7 +10840,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9xv9GeFGEsRo="
 					},
-					"name": "PC_LOGOUT - Cerrar sesión",
+					"name": " Cerrar sesión",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -12022,8 +12022,8 @@
 											"left": 29,
 											"top": 375,
 											"width": 231,
-											"height": 13,
-											"text": "2.2 PC_NEWUSER - Registro",
+											"height": 26,
+											"text": "2.2 PC_NUEVOUSUARIO - Registrar nuevo usuario",
 											"wordWrap": true
 										},
 										{
@@ -12058,7 +12058,7 @@
 									"left": 24,
 									"top": 368,
 									"width": 241,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xv9GeFHC+rI="
 									},
@@ -12503,8 +12503,8 @@
 											"left": 277,
 											"top": 183,
 											"width": 207,
-											"height": 13,
-											"text": "2.1.- PC_LOGIN - Iniciar sesión",
+											"height": 26,
+											"text": "2.1.- PC_INICIARSESION - Iniciar sesión",
 											"wordWrap": true
 										},
 										{
@@ -12539,7 +12539,7 @@
 									"left": 272,
 									"top": 176,
 									"width": 217,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xv9GeVHYg84="
 									},
@@ -12980,7 +12980,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9xv9GeVH2igw="
 							},
-							"name": "2.2 PC_NEWUSER - Registro"
+							"name": "2.2 PC_NUEVOUSUARIO - Registrar nuevo usuario"
 						},
 						{
 							"_type": "UMLAction",
@@ -12988,7 +12988,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9xv9GeVH2igw="
 							},
-							"name": "2.1.- PC_LOGIN - Iniciar sesión"
+							"name": "2.1.- PC_INICIARSESION - Iniciar sesión"
 						}
 					]
 				},
@@ -13050,7 +13050,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_HISCOM – Historial de compras",
+			"name": "PC_HISCOM – Consultar historial de compras",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -13058,7 +13058,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9xv/kBFQQRvM="
 					},
-					"name": "PC_HISCOM – Historial de compras",
+					"name": "Consultar historial de compras",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -13708,9 +13708,9 @@
 											"font": "Arial;13;1",
 											"left": 253,
 											"top": 415,
-											"width": 190.7216796875,
+											"width": 247.06982421875,
 											"height": 13,
-											"text": "2.1.- PC_LOGIN - Iniciar sesión"
+											"text": "2.1.- PC_INICIARSESION - Iniciar sesión"
 										},
 										{
 											"_type": "LabelView",
@@ -13743,7 +13743,7 @@
 									"font": "Arial;13;0",
 									"left": 248,
 									"top": 408,
-									"width": 200.7216796875,
+									"width": 257.06982421875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xv/kBFQz5kg="
@@ -13766,7 +13766,7 @@
 							"containerChangeable": true,
 							"left": 248,
 							"top": 408,
-							"width": 200.7216796875,
+							"width": 257.06982421875,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9xv/kBFQyPV8="
@@ -13907,9 +13907,9 @@
 											"font": "Arial;13;1",
 											"left": 69,
 											"top": 551,
-											"width": 185.6435546875,
+											"width": 322.181640625,
 											"height": 13,
-											"text": "2.2.- PC_NEWUSER - Registro"
+											"text": "2.2.- PC_NUEVOUSUARIO - Registrar nuevo usuario"
 										},
 										{
 											"_type": "LabelView",
@@ -13920,9 +13920,9 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -32,
-											"width": 248.498046875,
+											"width": 305.5888671875,
 											"height": 13,
-											"text": "(from PC_HISCOM – Historial de compras)"
+											"text": "(from PC_HISCOM – Consultar historial de compras)"
 										},
 										{
 											"_type": "LabelView",
@@ -13940,7 +13940,7 @@
 									"font": "Arial;13;0",
 									"left": 64,
 									"top": 544,
-									"width": 195.6435546875,
+									"width": 332.181640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9xv/kBFQ99rA="
@@ -13960,7 +13960,7 @@
 							"containerChangeable": true,
 							"left": 64,
 							"top": 544,
-							"width": 195.6435546875,
+							"width": 332.181640625,
 							"height": 41,
 							"nameCompartment": {
 								"$ref": "AAAAAAF9xv/kBFQ8J4Q="
@@ -14082,7 +14082,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 337,
-									"top": 561,
+									"top": 489,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -14103,7 +14103,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 322,
-									"top": 561,
+									"top": 489,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -14123,8 +14123,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 367,
-									"top": 562,
+									"left": 366,
+									"top": 490,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -14141,7 +14141,7 @@
 							"tail": {
 								"$ref": "AAAAAAF9xv/kBFQ71ew="
 							},
-							"points": "259:568;352:568;352:448",
+							"points": "352:544;352:448",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9xv/kBVRGPHY="
@@ -14300,7 +14300,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 508,
+									"left": 536,
 									"top": 406,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -14321,7 +14321,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 508,
+									"left": 536,
 									"top": 391,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -14342,7 +14342,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 508,
+									"left": 536,
 									"top": 436,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -14360,7 +14360,7 @@
 							"tail": {
 								"$ref": "AAAAAAF9xv/kBFQxdd4="
 							},
-							"points": "448:427;568:427",
+							"points": "504:427;568:427",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF9xv/kBVRRlYo="
@@ -14427,9 +14427,9 @@
 											"font": "Arial;13;0",
 											"left": -288,
 											"top": -80,
-											"width": 248.498046875,
+											"width": 305.5888671875,
 											"height": 13,
-											"text": "(from PC_HISCOM – Historial de compras)"
+											"text": "(from PC_HISCOM – Consultar historial de compras)"
 										},
 										{
 											"_type": "LabelView",
@@ -15693,7 +15693,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9xv/kBFQQRvM="
 					},
-					"name": "2.2.- PC_NEWUSER - Registro"
+					"name": "2.2.- PC_NUEVOUSUARIO - Registrar nuevo usuario"
 				},
 				{
 					"_type": "UMLAction",
@@ -15958,7 +15958,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF9xv/kBVSpRv0="
 							},
-							"name": "2.1.- PC_LOGIN - Iniciar sesión"
+							"name": "2.1.- PC_INICIARSESION - Iniciar sesión"
 						},
 						{
 							"_type": "UMLAction",
@@ -16046,7 +16046,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_LOGIN - Iniciar Sesion",
+			"name": "PC_INICIARSESION - Iniciar Sesion",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -16054,7 +16054,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9yY1QKN8YPhY="
 					},
-					"name": "PC_LOGIN - Inicio de sesión",
+					"name": "Iniciar sesión",
 					"ownedViews": [
 						{
 							"_type": "UMLSwimlaneView",
@@ -16230,9 +16230,9 @@
 											"font": "Arial;20;0",
 											"left": -144,
 											"top": 16,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -16427,9 +16427,9 @@
 											"font": "Arial;20;0",
 											"left": -112,
 											"top": 64,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -16624,9 +16624,9 @@
 											"font": "Arial;20;0",
 											"left": -144,
 											"top": 48,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -16934,9 +16934,9 @@
 											"font": "Arial;20;0",
 											"left": -16,
 											"top": -16,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -17132,9 +17132,9 @@
 											"font": "Arial;20;0",
 											"left": -128,
 											"top": 464,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -17528,9 +17528,9 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -192,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -18530,9 +18530,9 @@
 											"font": "Arial;20;0",
 											"left": -32,
 											"top": -64,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -18727,9 +18727,9 @@
 											"font": "Arial;20;0",
 											"left": -96,
 											"top": 16,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -18921,9 +18921,9 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -160,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -19116,9 +19116,9 @@
 											"font": "Arial;20;0",
 											"left": -48,
 											"top": 528,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -19423,9 +19423,9 @@
 											"font": "Arial;20;0",
 											"left": -96,
 											"top": 96,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -19621,9 +19621,9 @@
 											"font": "Arial;20;0",
 											"left": -96,
 											"top": 464,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -19819,9 +19819,9 @@
 											"font": "Arial;20;0",
 											"left": -160,
 											"top": 496,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -20323,9 +20323,9 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -16,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -20518,9 +20518,9 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -48,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -20915,9 +20915,9 @@
 											"visible": false,
 											"font": "Arial;20;0",
 											"left": -64,
-											"width": 313.408203125,
+											"width": 384.53125,
 											"height": 20,
-											"text": "(from PC_LOGIN - Iniciar Sesion)"
+											"text": "(from PC_INICIARSESION - Iniciar Sesion)"
 										},
 										{
 											"_type": "LabelView",
@@ -21833,7 +21833,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "PC_COMPRO - Comentarios",
+			"name": "PC_COMPRO - Realizar un comentario",
 			"ownedElements": [
 				{
 					"_type": "UMLActivityDiagram",
@@ -22000,7 +22000,7 @@
 											"left": 317,
 											"top": 71,
 											"width": 175,
-											"height": 13,
+											"height": 26,
 											"text": "1.- Muestra inicio de la página",
 											"wordWrap": true
 										},
@@ -22014,9 +22014,9 @@
 											"font": "Arial;13;0",
 											"left": -64,
 											"top": -64,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -22036,7 +22036,7 @@
 									"left": 312,
 									"top": 64,
 									"width": 185,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9ydJsy+QTqYw="
 									},
@@ -22305,9 +22305,9 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"top": 48,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -22408,9 +22408,9 @@
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 96,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -22734,9 +22734,9 @@
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 64,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -23250,9 +23250,9 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"top": 80,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -23339,7 +23339,7 @@
 											"left": 293,
 											"top": 575,
 											"width": 111,
-											"height": 39,
+											"height": 52,
 											"text": "6.-Muestra en plantilla de comentario exitoso.",
 											"wordWrap": true
 										},
@@ -23353,9 +23353,9 @@
 											"font": "Arial;13;0",
 											"left": 16,
 											"top": 144,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -23375,7 +23375,7 @@
 									"left": 288,
 									"top": 568,
 									"width": 121,
-									"height": 51,
+									"height": 64,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9ydJszeRn2MI="
 									},
@@ -23649,7 +23649,7 @@
 											"left": 61,
 											"top": 71,
 											"width": 175,
-											"height": 65,
+											"height": 78,
 											"text": "2.- Busca el producto que desee comprar o que haya comprado. Observar diagrama de actividad de PC_BUSPRO – Buscar un Producto",
 											"wordWrap": true
 										},
@@ -23683,7 +23683,7 @@
 									"left": 56,
 									"top": 64,
 									"width": 185,
-									"height": 77,
+									"height": 90,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9ydJszOQd4no="
 									},
@@ -24139,8 +24139,8 @@
 											"left": 325,
 											"top": 847,
 											"width": 143,
-											"height": 52,
-											"text": "5.1.- Inicia sesión. Observar diagrama de actividad de PC_LOGIN - Iniciar Sesión",
+											"height": 65,
+											"text": "5.1.- Inicia sesión. Observar diagrama de actividad de PC_INICIARSESION - Iniciar Sesión",
 											"wordWrap": true
 										},
 										{
@@ -24152,9 +24152,9 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"top": 776,
-											"width": 207.30810546875,
+											"width": 267.287109375,
 											"height": 13,
-											"text": "(from PC_COMPRO - Comentarios)"
+											"text": "(from PC_COMPRO - Realizar un comentario)"
 										},
 										{
 											"_type": "LabelView",
@@ -24173,7 +24173,7 @@
 									"left": 320,
 									"top": 840,
 									"width": 153,
-									"height": 64,
+									"height": 77,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF9ydJszeRbbXQ="
 									},
@@ -24562,7 +24562,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF9ydJsy+QIxaI="
 					},
-					"name": "5.1.- Inicia sesión. Observar diagrama de actividad de PC_LOGIN - Iniciar Sesión"
+					"name": "5.1.- Inicia sesión. Observar diagrama de actividad de PC_INICIARSESION - Iniciar Sesión"
 				},
 				{
 					"_type": "UMLAction",
@@ -25381,7 +25381,7 @@
 			"_parent": {
 				"$ref": "AAAAAAFF+h6SjaM2Hec="
 			},
-			"name": "Relaciones Caoss de Uso",
+			"name": "Relaciones Casos de Uso",
 			"ownedElements": [
 				{
 					"_type": "UMLUseCaseDiagram",
@@ -25448,7 +25448,7 @@
 											"top": -144,
 											"width": 260.0947265625,
 											"height": 18,
-											"text": "(from Relaciones Caoss de Uso)"
+											"text": "(from Relaciones Casos de Uso)"
 										},
 										{
 											"_type": "LabelView",
@@ -25536,7 +25536,7 @@
 											"top": 230,
 											"width": 262,
 											"height": 18,
-											"text": "Indentificación"
+											"text": "Identificación"
 										},
 										{
 											"_type": "LabelView",
@@ -25550,7 +25550,7 @@
 											"top": -80,
 											"width": 260.0947265625,
 											"height": 18,
-											"text": "(from Relaciones Caoss de Uso)"
+											"text": "(from Relaciones Casos de Uso)"
 										},
 										{
 											"_type": "LabelView",
@@ -25618,8 +25618,8 @@
 							"left": 360,
 							"top": 320,
 							"width": 192,
-							"height": 28,
-							"text": "+Historial de compras"
+							"height": 44,
+							"text": "+Consultar historial de compras"
 						},
 						{
 							"_type": "UMLTextView",
@@ -25657,8 +25657,8 @@
 							"left": 760,
 							"top": 360,
 							"width": 128,
-							"height": 28,
-							"text": "+Registrase"
+							"height": 44,
+							"text": "+Registrar nuevo usuario"
 						},
 						{
 							"_type": "UMLTextView",
@@ -25670,8 +25670,8 @@
 							"left": 360,
 							"top": 440,
 							"width": 177,
-							"height": 33,
-							"text": "+Productos Deseados"
+							"height": 44,
+							"text": "+Agregar productos deseados"
 						},
 						{
 							"_type": "UMLTextView",
@@ -25681,10 +25681,10 @@
 							},
 							"font": "Arial;16;0",
 							"left": 360,
-							"top": 360,
+							"top": 368,
 							"width": 193,
 							"height": 28,
-							"text": "+Comentarios a producto"
+							"text": "+Realizar un comentario"
 						},
 						{
 							"_type": "UMLTextView",
@@ -25694,7 +25694,7 @@
 							},
 							"font": "Arial;16;0",
 							"left": 360,
-							"top": 400,
+							"top": 408,
 							"width": 160,
 							"height": 32,
 							"text": "+Buscar un producto"
@@ -25715,7 +25715,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91N1iJwA/o/s="
 					},
-					"name": "Indentificación"
+					"name": "Identificación"
 				}
 			]
 		},
@@ -26451,10 +26451,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 563.5,
-											"top": 161,
+											"top": 163.5,
 											"width": 98,
-											"height": 39,
-											"text": "PC_HISCOM - Historial de Compras",
+											"height": 52,
+											"text": "PC_HISCOM - Consultar historial de Compras",
 											"wordWrap": true
 										},
 										{
@@ -26487,9 +26487,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 558.5,
-									"top": 154,
+									"top": 156.5,
 									"width": 108,
-									"height": 51,
+									"height": 64,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF91oBp8a8moKw="
 									},
@@ -26589,7 +26589,7 @@
 							"left": 536,
 							"top": 144,
 							"width": 153,
-							"height": 72,
+							"height": 90,
 							"nameCompartment": {
 								"$ref": "AAAAAAF91oBp8a8liYY="
 							},
@@ -26652,10 +26652,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 571.5,
-											"top": 278,
+											"top": 281,
 											"width": 98,
-											"height": 26,
-											"text": "PC_COMPRO - Comentarios",
+											"height": 39,
+											"text": "PC_COMPRO - Realizar un comentario",
 											"wordWrap": true
 										},
 										{
@@ -26688,9 +26688,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 566.5,
-									"top": 271,
+									"top": 274,
 									"width": 108,
-									"height": 38,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF91oBp8a8xiyk="
 									},
@@ -26790,7 +26790,7 @@
 							"left": 544,
 							"top": 264,
 							"width": 153,
-							"height": 53,
+							"height": 72,
 							"nameCompartment": {
 								"$ref": "AAAAAAF91oBp8a8w90w="
 							},
@@ -26879,7 +26879,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 488,
-									"top": 230,
+									"top": 234,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -26899,7 +26899,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 442,
-									"top": 196,
+									"top": 200,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": -1.2256094572374177,
@@ -26922,7 +26922,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 479,
-									"top": 201,
+									"top": 205,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -26940,7 +26940,7 @@
 								"$ref": "AAAAAAF91oBp8a8kbR8="
 							},
 							"lineStyle": 1,
-							"points": "535:205;433:240",
+							"points": "535:211;433:242",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF91oBp8q8+9Rw="
@@ -27069,7 +27069,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 486,
-									"top": 286,
+									"top": 291,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -27088,8 +27088,8 @@
 										"$ref": "AAAAAAF91oBp9a90a2w="
 									},
 									"font": "Arial;13;0",
-									"left": 459,
-									"top": 301,
+									"left": 458,
+									"top": 306,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -27112,7 +27112,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 489,
-									"top": 257,
+									"top": 262,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -27130,7 +27130,7 @@
 								"$ref": "AAAAAAF91oBp8a8vG8U="
 							},
 							"lineStyle": 1,
-							"points": "543:283;433:274",
+							"points": "543:290;433:277",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF91oBp9K9VGvs="
@@ -27195,10 +27195,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 423,
-											"top": 409,
+											"top": 411.5,
 											"width": 115,
-											"height": 39,
-											"text": "PC_PRODES - Productos deseados",
+											"height": 52,
+											"text": "PC_PRODES - Agregar productos deseados",
 											"wordWrap": true
 										},
 										{
@@ -27231,9 +27231,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 418,
-									"top": 402,
+									"top": 404.5,
 									"width": 125,
-									"height": 51,
+									"height": 64,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF93lCrFXrD89U="
 									},
@@ -27333,7 +27333,7 @@
 							"left": 392,
 							"top": 392,
 							"width": 177,
-							"height": 72,
+							"height": 90,
 							"nameCompartment": {
 								"$ref": "AAAAAAF93lCrFXrCH4I="
 							},
@@ -27377,7 +27377,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 427,
+									"left": 424,
 									"top": 331,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -27398,7 +27398,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 439,
+									"left": 436,
 									"top": 322,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -27419,7 +27419,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 404,
+									"left": 401,
 									"top": 350,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -27440,7 +27440,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 409,
+									"left": 407,
 									"top": 309,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -27461,8 +27461,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 421,
-									"top": 302,
+									"left": 419,
+									"top": 303,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -27482,7 +27482,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 385,
+									"left": 383,
 									"top": 322,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -27503,7 +27503,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 446,
+									"left": 442,
 									"top": 355,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -27523,7 +27523,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 455,
+									"left": 451,
 									"top": 345,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -27543,7 +27543,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 427,
+									"left": 422,
 									"top": 375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -27589,7 +27589,7 @@
 								"$ref": "AAAAAAF91oBp8K8K7G4="
 							},
 							"lineStyle": 1,
-							"points": "382:304;451:391",
+							"points": "380:304;446:391",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF93lT8U3ukMfE="
@@ -27886,11 +27886,11 @@
 												"$ref": "AAAAAAF93ld9Nn7chh0="
 											},
 											"font": "Arial;13;1",
-											"left": 322.5,
-											"top": 749,
-											"width": 92,
-											"height": 39,
-											"text": "PC_LOGIN - Inicio de sesión",
+											"left": 329,
+											"top": 755.5,
+											"width": 123,
+											"height": 26,
+											"text": "PC_INICIARSESION - Iniciar sesión",
 											"wordWrap": true
 										},
 										{
@@ -27918,10 +27918,10 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 317.5,
-									"top": 742,
-									"width": 102,
-									"height": 51,
+									"left": 324,
+									"top": 748.5,
+									"width": 133,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF93ld9Nn7dkTc="
 									},
@@ -28010,7 +28010,7 @@
 							"containerChangeable": true,
 							"left": 296,
 							"top": 728,
-							"width": 145,
+							"width": 189,
 							"height": 80,
 							"nameCompartment": {
 								"$ref": "AAAAAAF93ld9Nn7chh0="
@@ -28086,11 +28086,11 @@
 												"$ref": "AAAAAAF93lmX1YC7q+0="
 											},
 											"font": "Arial;13;1",
-											"left": 531.5,
+											"left": 538,
 											"top": 643.5,
-											"width": 98,
+											"width": 130,
 											"height": 26,
-											"text": "PC_LOGOUT - Cerrar sesión",
+											"text": "PC_CERRARSESION - Cerrar sesión",
 											"wordWrap": true
 										},
 										{
@@ -28122,9 +28122,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 526.5,
+									"left": 533,
 									"top": 636.5,
-									"width": 108,
+									"width": 140.025390625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF93lmX1YC85ec="
@@ -28224,7 +28224,7 @@
 							"containerChangeable": true,
 							"left": 504,
 							"top": 616,
-							"width": 153,
+							"width": 198,
 							"height": 80,
 							"nameCompartment": {
 								"$ref": "AAAAAAF93lmX1YC7q+0="
@@ -28287,11 +28287,11 @@
 												"$ref": "AAAAAAF93lmjKYD3wlo="
 											},
 											"font": "Arial;13;1",
-											"left": 531.5,
-											"top": 831.5,
-											"width": 98,
-											"height": 26,
-											"text": "PC_NEWUSER – Registro",
+											"left": 538.5,
+											"top": 825,
+											"width": 131,
+											"height": 39,
+											"text": "PC_NUEVOUSUARIO – Registrar nuevo usuario",
 											"wordWrap": true
 										},
 										{
@@ -28323,10 +28323,10 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 526.5,
-									"top": 824.5,
-									"width": 108,
-									"height": 38,
+									"left": 533.5,
+									"top": 818,
+									"width": 141.46630859375,
+									"height": 51,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF93lmjKYD4Bcc="
 									},
@@ -28425,7 +28425,7 @@
 							"containerChangeable": true,
 							"left": 504,
 							"top": 800,
-							"width": 153,
+							"width": 200,
 							"height": 88,
 							"nameCompartment": {
 								"$ref": "AAAAAAF93lmjKYD3wlo="
@@ -28470,8 +28470,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 478,
-									"top": 719,
+									"left": 501,
+									"top": 718,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -28490,8 +28490,8 @@
 										"$ref": "AAAAAAF93lrF4IGrt10="
 									},
 									"font": "Arial;13;0",
-									"left": 437,
-									"top": 687,
+									"left": 459,
+									"top": 686,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": -1.647969670409604,
@@ -28513,8 +28513,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 465,
-									"top": 692,
+									"left": 486,
+									"top": 691,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -28532,7 +28532,7 @@
 								"$ref": "AAAAAAF93lmX1YC6nyE="
 							},
 							"lineStyle": 1,
-							"points": "503:696;441:728",
+							"points": "524:696;466:727",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF93lrF4YGuxHg="
@@ -28659,7 +28659,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 477,
+									"left": 498,
 									"top": 783,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -28679,8 +28679,8 @@
 										"$ref": "AAAAAAF93mHBK4QUOpw="
 									},
 									"font": "Arial;13;0",
-									"left": 432,
-									"top": 816,
+									"left": 452,
+									"top": 814,
 									"width": 55.65625,
 									"height": 13,
 									"alpha": -1.855302150089675,
@@ -28702,8 +28702,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 466,
-									"top": 812,
+									"left": 487,
+									"top": 810,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -28721,7 +28721,7 @@
 								"$ref": "AAAAAAF93ld9Nn7bIfI="
 							},
 							"lineStyle": 1,
-							"points": "441:793;503:815",
+							"points": "485:801;503:807",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF93mHBK4QXSnI="
@@ -29031,7 +29031,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_HISCOM - Historial de Compras",
+					"name": "PC_HISCOM - Consultar historial de Compras",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
@@ -29067,7 +29067,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_COMPRO - Comentarios",
+					"name": "PC_COMPRO - Realizar un comentario",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
@@ -29142,7 +29142,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_PRODES - Productos deseados"
+					"name": "PC_PRODES - Agregar productos deseados"
 				},
 				{
 					"_type": "UMLActor",
@@ -29173,7 +29173,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_LOGIN - Inicio de sesión",
+					"name": "PC_INICIARSESION - Iniciar sesión",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -29209,7 +29209,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_LOGOUT - Cerrar sesión",
+					"name": "PC_CERRARSESION - Cerrar sesión",
 					"ownedElements": [
 						{
 							"_type": "UMLExtend",
@@ -29232,7 +29232,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF91oBp8K7+OWM="
 					},
-					"name": "PC_NEWUSER – Registro"
+					"name": "PC_NUEVOUSUARIO – Registrar nuevo usuario"
 				}
 			]
 		},
@@ -29813,8 +29813,8 @@
 											"left": 349,
 											"top": 335,
 											"width": 255,
-											"height": 18,
-											"text": "2.1 PC_LOGIN - Iniciar sesión",
+											"height": 36,
+											"text": "2.1 PC_INICIARSESION - Iniciar sesión",
 											"wordWrap": true
 										},
 										{
@@ -29849,7 +29849,7 @@
 									"left": 344,
 									"top": 328,
 									"width": 265,
-									"height": 30,
+									"height": 48,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF92xrtIJJnQ18="
 									},
@@ -29872,7 +29872,7 @@
 							"left": 344,
 							"top": 328,
 							"width": 265,
-							"height": 46,
+							"height": 64,
 							"nameCompartment": {
 								"$ref": "AAAAAAF92xrtIJJmWWo="
 							},
@@ -29906,7 +29906,7 @@
 											},
 											"visible": false,
 											"font": "Arial;18;0",
-											"left": -320,
+											"left": -432,
 											"height": 18
 										},
 										{
@@ -29916,11 +29916,11 @@
 												"$ref": "AAAAAAF92xrtIJJsSLU="
 											},
 											"font": "Arial;18;1",
-											"left": 101,
+											"left": 45,
 											"top": 455,
-											"width": 246.0498046875,
+											"width": 435.1025390625,
 											"height": 18,
-											"text": "2.2 PC_NEWUSER - Registro"
+											"text": "2.2 PC_NUEVOUSUARIO - Registrar nuevo usuario"
 										},
 										{
 											"_type": "LabelView",
@@ -29930,7 +29930,7 @@
 											},
 											"visible": false,
 											"font": "Arial;18;0",
-											"left": -320,
+											"left": -432,
 											"width": 342.0703125,
 											"height": 18,
 											"text": "(from Actor)"
@@ -29943,15 +29943,15 @@
 											},
 											"visible": false,
 											"font": "Arial;18;0",
-											"left": -320,
+											"left": -432,
 											"height": 18,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;18;0",
-									"left": 96,
+									"left": 40,
 									"top": 448,
-									"width": 256.0498046875,
+									"width": 445.1025390625,
 									"height": 30,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF92xrtIJJtrSg="
@@ -29969,9 +29969,9 @@
 							],
 							"font": "Arial;18;0",
 							"containerChangeable": true,
-							"left": 96,
+							"left": 40,
 							"top": 448,
-							"width": 256.0498046875,
+							"width": 445.1025390625,
 							"height": 46,
 							"nameCompartment": {
 								"$ref": "AAAAAAF92xrtIJJsSLU="
@@ -30187,7 +30187,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 407,
-									"top": 463,
+									"top": 412,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -30208,7 +30208,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 392,
-									"top": 463,
+									"top": 412,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -30228,8 +30228,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 437,
-									"top": 464,
+									"left": 436,
+									"top": 413,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -30246,7 +30246,7 @@
 							"tail": {
 								"$ref": "AAAAAAF92xrtIJJre1E="
 							},
-							"points": "351:470;422:470;422:373",
+							"points": "422:448;422:391",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF92xrtIJJ6RI8="
@@ -30749,7 +30749,7 @@
 							"tail": {
 								"$ref": "AAAAAAF92xrtIJJlZ/Y="
 							},
-							"points": "504:373;504:528;264:528;264:568",
+							"points": "504:391;504:528;264:528;264:568",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF92xrtIZKUQ8s="
@@ -31993,7 +31993,7 @@
 											"left": 781,
 											"top": 1439,
 											"width": 239,
-											"height": 36,
+											"height": 54,
 											"text": "10.2 Espera un lapso máximo de 3 días para validar el pago",
 											"wordWrap": true
 										},
@@ -32029,7 +32029,7 @@
 									"left": 776,
 									"top": 1432,
 									"width": 249,
-									"height": 48,
+									"height": 66,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF92xrtIpLXyG4="
 									},
@@ -33560,7 +33560,7 @@
 											"left": 765,
 											"top": 2007,
 											"width": 283.20068359375,
-											"height": 36,
+											"height": 54,
 											"text": "13.2 Le envía que su pedido estará en bodega de la paquetería de envío",
 											"wordWrap": true
 										},
@@ -33596,7 +33596,7 @@
 									"left": 760,
 									"top": 2000,
 									"width": 293.20068359375,
-									"height": 48,
+									"height": 66,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF92xrtI5MjTSU="
 									},
@@ -34932,7 +34932,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF92xrtJZNt7KA="
 							},
-							"name": "2.2 PC_NEWUSER - Registro"
+							"name": "2.2 PC_NUEVOUSUARIO - Registrar nuevo usuario"
 						},
 						{
 							"_type": "UMLAction",
@@ -34956,7 +34956,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF92xrtJZNt7KA="
 							},
-							"name": "2.1 PC_LOGIN - Iniciar sesión"
+							"name": "2.1 PC_INICIARSESION - Iniciar sesión"
 						},
 						{
 							"_type": "UMLDecisionNode",
