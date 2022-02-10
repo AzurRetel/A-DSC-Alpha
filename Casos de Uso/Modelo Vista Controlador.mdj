@@ -464,9 +464,9 @@
 											"font": "Arial;16;1",
 											"left": 581,
 											"top": 135,
-											"width": 131.5859375,
+											"width": 241.8359375,
 											"height": 16,
-											"text": "Datos de Usuario"
+											"text": "Datos externos - datos de envío"
 										},
 										{
 											"_type": "LabelView",
@@ -499,7 +499,7 @@
 									"font": "Arial;16;0",
 									"left": 576,
 									"top": 128,
-									"width": 141.5859375,
+									"width": 251.8359375,
 									"height": 28,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF+0hy9B3UJlwU="
@@ -583,7 +583,7 @@
 							"containerChangeable": true,
 							"left": 576,
 							"top": 128,
-							"width": 141.5859375,
+							"width": 251.8359375,
 							"height": 28,
 							"nameCompartment": {
 								"$ref": "AAAAAAF+0hy9BnUIQSo="
@@ -2422,7 +2422,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Datos de Usuario",
+					"name": "Datos externos - datos de envío",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
